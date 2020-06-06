@@ -1,0 +1,8 @@
+@font-face {
+	font-family: Cinzel;
+	src: url("Cinzel-Regular.otf");
+}
+
+.fuente {
+	font-family: Cinzel;
+}
