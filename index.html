@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="CSS/estilos.css">
+<link rel="shortcut icon" href="IMG/LOGO.png">
 <body>
 
 <!-- Navbar (sit on top) -->
@@ -25,7 +26,7 @@
 <header class="w3-display-container w3-content w3-wide pc" id="home" style="max-width:1500px;">
   <img class="w3-image pc" src="IMG/medio.png" alt="Quyca Fa" width="1500" height="800">
 </header>
- <div class="w3-display-container w3-content w3-wide celular" style="max-width:600px;" id="home">
+ <div class="w3-display-container w3-content w3-wide celular" style="max-width:600px;">
   <img class="w3-image celular" src="IMG/medio2.png" alt="Quyca Fa" width="1500" height="800">
 </div>
 <!-- Page content -->
@@ -38,7 +39,7 @@
 
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container"><a href="qfsports/inicio.html">
+      <div class="w3-display-container"><a href="secciones/qfsports.html">
         <div class="w3-display-topleft w3-black w3-padding fuente">QF Sports</div>
         <img src="IMG/Nuestro%20colegio.JPG" alt="House" style="width:100%"></a>
       </div>
@@ -63,7 +64,7 @@
     </div>
   </div>
   <center><div class="w3-row-padding">
-    <a class="w3-button w3-black w3-section fuente" href="index.html">
+    <a class="w3-button w3-black w3-section fuente" href="">
         <i class="fa fa-paper-plane"></i> Ver más
     </a>
   </div></center>
@@ -110,7 +111,7 @@
   <div class="w3-container w3-padding-32" id="contact">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 fuente">Contacto</h3>
     <p>Contactanos y cuentanos tus dudas o sugerencias.</p>
-    <form action="/action_page.php" target="_blank">
+    <form action="enviar.php" method="post">
       <input class="w3-input w3-border" type="text" placeholder="Nombre" required name="Name">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
       <input class="w3-input w3-section w3-border" type="text" placeholder="Asunto" required name="Subject">
