@@ -13,7 +13,7 @@ $enviar .= "Asunto: $asunto";
 $enviar .= "Mensaje: $mensaje";
 
 mail($destinatario, $motivo, $enviar);
-header("location: index.html");
+header("location:index.html");
 
 
 ?>
