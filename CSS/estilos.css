@@ -6,3 +6,16 @@
 .fuente {
 	font-family: Cinzel;
 }
+
+.celular {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .celular {
+        display: block;
+    }
+    .pc {
+        display: none;
+    }
+}
