@@ -19,6 +19,15 @@
     .pc {
         display: none;
     }
+
+    .simply-amount {
+        display: block;
+        font-size: 1.5em;
+    }
+    
+    .simply-word {
+        font-size: 0.75em;
+    }
 }
 
 .inicio {
@@ -52,7 +61,6 @@
 .simply-section {
     background-color: #fff;
     margin: 20px;
-    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,10 +69,8 @@
 .simply-amount {
     display: block;
     font-size: 3em;
-    font-weight: 700;
 }
 
 .simply-word {
     font-size: 1.5em;
-    font-weight: 300;
 }
