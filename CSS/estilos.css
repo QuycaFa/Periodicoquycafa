@@ -24,7 +24,7 @@
         display: block;
         font-size: 1.5em;
     }
-    
+
     .simply-word {
         font-size: 0.75em;
     }
@@ -59,11 +59,8 @@
 }
 
 .simply-section {
-    background-color: #fff;
-    margin: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 20%;
+    margin-top: 20px;
 }
 
 .simply-amount {
