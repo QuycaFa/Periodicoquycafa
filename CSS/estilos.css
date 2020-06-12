@@ -46,12 +46,11 @@
 #cuentaAtras {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .simply-section {
     background-color: #fff;
-    width: 150px;
-    height: 150px;
     margin: 20px;
     border-radius: 5px;
     display: flex;
