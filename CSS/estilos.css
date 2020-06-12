@@ -1,10 +1,10 @@
 @font-face {
-	font-family: Cinzel;
-	src: url("../Fuentes/Cinzel-Regular.otf");
+    font-family: Cinzel;
+    src: url("../Fuentes/Cinzel-Regular.otf");
 }
 
 .fuente {
-	font-family: Cinzel;
+    font-family: Cinzel;
 }
 
 .celular {
@@ -15,7 +15,57 @@
     .celular {
         display: block;
     }
+
     .pc {
         display: none;
     }
+}
+
+.inicio {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    min-height: 100vh;
+    z-index: 10;
+}
+
+.parte {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+}
+
+.inicio.ocultar {
+    transform: translateY(100%);
+    transition: 1s;
+}
+
+#cuentaAtras {
+    display: flex;
+    align-items: center;
+}
+
+.simply-section {
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.simply-amount {
+    display: block;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.simply-word {
+    font-size: 1.5em;
+    font-weight: 300;
 }
