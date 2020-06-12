@@ -11,16 +11,6 @@
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
-    .celular {
-        display: block;
-    }
-
-    .pc {
-        display: none;
-    }
-}
-
 .inicio {
     position: fixed;
     top: 0;
@@ -59,4 +49,28 @@
 
 .simply-word {
     font-size: 1.5em;
+}
+
+@media only screen and (max-width: 600px) {
+    .celular {
+        display: block;
+    }
+
+    .pc {
+        display: none;
+    }
+    .simply-section {
+        width: 20%;
+        margin-top: 20px;
+    }
+    
+    .simply-amount {
+        display: block;
+        font-size: 1.5em;
+    }
+    
+    .simply-word {
+        font-size: 1em;
+    }
+    
 }
