@@ -11,7 +11,7 @@
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     .celular {
         display: block;
     }
@@ -26,7 +26,7 @@
     }
 
     .simply-word {
-        font-size: 0.75em;
+        font-size: 1em;
     }
 }
 
