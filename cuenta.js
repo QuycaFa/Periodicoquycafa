@@ -29,24 +29,18 @@ simplyCountdown('#cuentaAtras', {
     countUp: false
 });
 
-let paraOcultar1 = document.getElementById("oculto1");
-let paraOcultar2 = document.getElementById("oculto2");
-let paraOcultar3 = document.getElementById("oculto3");
-let paraOcultar4 = document.getElementById("oculto4");
-let paraOcultar5 = document.getElementById("b1");
-let paraOcultar6 = document.getElementById("b2");
-let paraOcultar7 = document.getElementById("oculto5");
+let paraOcultar1 = document.getElementById("oculto");
+let paraOcultar2 = document.getElementById("oculto1");
+let paraOcultar3 = document.getElementById("b1");
+let paraOcultar4 = document.getElementById("b2");
 
 
 function mostrar() {
     paraOcultar1.classList.toggle("w3-hide");
-    paraOcultar2.classList.toggle("w3-hide");
-    paraOcultar3.classList.toggle("w3-hide");
+    paraOcultar3.classList.toggle("w3-show");
     paraOcultar4.classList.toggle("w3-hide");
-    paraOcultar5.classList.toggle("w3-show");
-    paraOcultar6.classList.toggle("w3-hide");
 }
 
 function contenido() {
-    paraOcultar7.classList.toggle("w3-hide");
+    paraOcultar2.classList.toggle("w3-hide");
 }
