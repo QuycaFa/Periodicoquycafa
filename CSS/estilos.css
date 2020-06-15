@@ -3,6 +3,10 @@
     src: url("../Fuentes/Cinzel-Regular.otf");
 }
 
+a {
+    text-decoration: none;
+}
+
 .fuente {
     font-family: Cinzel;
 }
@@ -73,4 +77,8 @@
         font-size: 0.75em;
     }
     
+}
+
+.mostrar {
+    display: block;
 }
