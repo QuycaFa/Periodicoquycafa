@@ -82,3 +82,19 @@ a {
 .mostrar {
     display: block;
 }
+/*editoe*/
+
+div#archivo {
+    position: relative;
+  }
+  input.archivo {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0%;
+    cursor: pointer;
+  }
