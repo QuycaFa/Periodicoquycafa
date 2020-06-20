@@ -16,7 +16,8 @@
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
         <div class="w3-bar w3-black w3-wide w3-padding w3-card">
-            <a href="#home" class="w3-bar-item w3-button fuente"><img loading="lazy" src="IMG/logo.png" height="30px"> Quyca Fa:
+            <a href="#home" class="w3-bar-item w3-button fuente"><img loading="lazy" src="IMG/logo.png" height="30px">
+                Quyca Fa:
                 Periódico estudiantil</a>
             <!-- Float links to the right. Hide them on small screens -->
             <div class="w3-right w3-hide-small w3-hide-medium">
@@ -59,14 +60,16 @@
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container"><a href="secciones/ojocientifico.html">
                         <div class="w3-display-topleft w3-black w3-padding fuente">Bajo el ojo científico</div>
-                        <img loading="lazy" src="IMG/secciones/portadas/ojo%20cientifico.jpg" alt="House" style="width:100%">
+                        <img loading="lazy" src="IMG/secciones/portadas/ojo%20cientifico.jpg" alt="House"
+                            style="width:100%">
                     </a>
                 </div>
             </div>
             <div class="w3-col l3 m6 w3-margin-bottom">
                 <div class="w3-display-container"><a href="secciones/mundoinfantil.html">
                         <div class="w3-display-topleft w3-black w3-padding fuente">Mundo infantil</div>
-                        <img loading="lazy" src="IMG/secciones/portadas/mundoinfantil.jpg" alt="House" style="width:100%">
+                        <img loading="lazy" src="IMG/secciones/portadas/mundoinfantil.jpg" alt="House"
+                            style="width:100%">
                     </a>
                 </div>
             </div>
@@ -108,7 +111,8 @@
                 <img loading="lazy" src="IMG/Autor/Daniela.png" alt="Dan" style="width:100%">
                 <h3 class="fuente">Daniela Altamiranda</h3>
                 <p class="w3-opacity">Editora Mundo Infantil</p>
-                <p>"Si mal no recuerdo, la infancia consistia en tener ganas de aquello que no se podía conseguir" Audur Ava Ólafsdóttir</p>
+                <p>"Si mal no recuerdo, la infancia consistia en tener ganas de aquello que no se podía conseguir" Audur
+                    Ava Ólafsdóttir</p>
             </div>
             <p><a href="creadores.html" class="w3-button w3-light-grey w3-block fuente">Ver más</a></p>
 
@@ -116,52 +120,64 @@
 
         <!-- Contact Section -->
         <div class="w3-container">
-            <form action="index.html" method="POST" class="w3-hide w3-col l12 m12" id="textr" data-netlify="true" name="crearA">
-              <p>Nombre:</p>
-              <input type="text" placeholder="Ej: Tim Berners Lee" name="nombre" class="w3-padding w3-margin-top w3-margin-bottom"
-                style="width:100%;">
-              <p>Correo:</p>
-              <p class="w3-opacity">Pedimos el correo para informarte de la decisión que tomemos respecto al articulo que sea
-                enviado.</p>
-              <input class="w3-input w3-border" type="email" placeholder="Ej: example@example.com" required name="Correo">
-              <p>Nota:</p>
-              <p class="w3-opacity">Para que el periódico Quyca FA considere publicar tu articulo, este debe tener un minimo de 500 y un maximo de 1500 palabras.<br>El texto debe tener Antetitulo, titulo, parrafo de llamado y al menos una imagen; los
-                anteriores requisitos no son necesarios si tu texto esta dirigido a niños o es un texto de caracter
-                literario (Cuento, poema, poesía o similares).<br>
-              </p>
-              <textarea id="RichText" name="Texto"></textarea>
-              <input type="submit" class="w3-button w3-black w3-padding w3-margin-top w3-col l12 m12" value="Enviar">
+            <form action="index.html" method="POST" class="w3-hide w3-col l12 m12" id="textr" data-netlify="true"
+                name="crearA">
+                <p>Nombre:</p>
+                <input type="text" placeholder="Ej: Tim Berners Lee" name="nombre"
+                    class="w3-padding w3-margin-top w3-margin-bottom" style="width:100%;">
+                <p>Correo:</p>
+                <p class="w3-opacity">Pedimos el correo para informarte de la decisión que tomemos respecto al articulo
+                    que sea
+                    enviado.</p>
+                <input class="w3-input w3-border" type="email" placeholder="Ej: example@example.com" required
+                    name="Correo">
+                <p>Nota:</p>
+                <p class="w3-opacity">Para que el periódico Quyca FA considere publicar tu articulo, este debe tener un
+                    minimo de 500 y un maximo de 1500 palabras.<br>El texto debe tener Antetitulo, titulo, parrafo de
+                    llamado y al menos una imagen; los
+                    anteriores requisitos no son necesarios si tu texto esta dirigido a niños o es un texto de caracter
+                    literario (Cuento, poema, poesía o similares).<br>
+                </p>
+                <textarea id="RichText" name="Texto"></textarea>
+                <input type="submit" class="w3-button w3-black w3-padding w3-margin-top w3-col l12 m12" value="Enviar">
             </form>
             <div class="w3-padding w3-col l3 m2 w3-hide-small w3-hide" id="fe"></div>
-            <form action="index.html" name="cargarA" method="post" data-netlify="true" class="w3-padding w3-col l6 m8 w3-hide"
-              id="file">
-              <br>
-              <p>Nota:</p>
-              <p class="w3-opacity">Para que el periódico Quyca FA considere publicar tu articulo, este debe tener un minimo de 500 y un maximo de 1500 palabras.<br>El texto debe tener Antetitulo, titulo, parrafo de llamado y al menos una imagen; los
-                anteriores requisitos no son necesarios si tu texto esta dirigido a niños o es un texto de caracter
-                literario (Cuento, poema, poesía o similares).</p>
-              <p>Nombre:</p>
-              <input class="w3-input w3-border" type="text" placeholder="Ej: Tim Berners Lee" required name="Nombre">
-              <p>Correo:</p>
-              <input class="w3-input w3-border" type="email" placeholder="Ej: example@example.com" required name="Correo">
-              <p>Intencion del texto o imagen:
-                <input class="w3-input w3-section w3-border" type="text"
-                  placeholder="Ej: Demostrar que obtener energías limpias no es dificil" required name="Intencion">
-                <p>Seleccione su archivo:</p>
-                <div id="archivo" class="w3-padding w3-col l12 m12 w3-black w3-hover-dark-gray w3-border w3-round-large w3-button">
-                  <p class="w3-center">Añadir Archivo</p>
-                <input class="archivo" type="file" required name="Archivo">
-              </div>
-                <input class="w3-button w3-black w3-section w3-center w3-col l12" type="submit">
+            <form action="index.html" name="cargarA" method="post" data-netlify="true"
+                class="w3-padding w3-col l6 m8 w3-hide" id="file">
+                <br>
+                <p>Nota:</p>
+                <p class="w3-opacity">Para que el periódico Quyca FA considere publicar tu articulo, este debe tener un
+                    minimo de 500 y un maximo de 1500 palabras.<br>El texto debe tener Antetitulo, titulo, parrafo de
+                    llamado y al menos una imagen; los
+                    anteriores requisitos no son necesarios si tu texto esta dirigido a niños o es un texto de caracter
+                    literario (Cuento, poema, poesía o similares).</p>
+                <p>Nombre:</p>
+                <input class="w3-input w3-border" type="text" placeholder="Ej: Tim Berners Lee" required name="Nombre">
+                <p>Correo:</p>
+                <input class="w3-input w3-border" type="email" placeholder="Ej: example@example.com" required
+                    name="Correo">
+                <p>Intencion del texto o imagen:
+                    <input class="w3-input w3-section w3-border" type="text"
+                        placeholder="Ej: Demostrar que obtener energías limpias no es dificil" required
+                        name="Intencion">
+                    <p>Seleccione su archivo:</p>
+                    <div id="archivo"
+                        class="w3-padding w3-col l12 m12 w3-black w3-hover-dark-gray w3-border w3-round-large w3-button">
+                        <p class="w3-center">Añadir Archivo</p>
+                        <input class="archivo" type="file" required name="Archivo">
+                    </div>
+                    <input class="w3-button w3-black w3-section w3-center w3-col l12" type="submit">
             </form>
             <h1 class="w3-center w3-col l12 m12">¿Deseas enviarnos un articulo propio?</h1>
             <div class="w3-center w3-padding w3-col l6 m6">
-              <button class="w3-button w3-section w3-gray w3-border w3-col l12 m12 fuente" onclick="mostrar()">Selccionar archivo</button>
+                <button class="w3-button w3-section w3-gray w3-border w3-col l12 m12 fuente"
+                    onclick="mostrar()">Selccionar archivo</button>
             </div>
             <div class="w3-center w3-padding w3-col l6 m6">
-              <button class="w3-button w3-section w3-gray w3-border w3-col l12 m12 fuente" onclick="mostrar2()">Redactar texto</button>
+                <button class="w3-button w3-section w3-gray w3-border w3-col l12 m12 fuente"
+                    onclick="mostrar2()">Redactar texto</button>
             </div>
-          </div>
+        </div>
         <div class="w3-container w3-padding-32" id="contact">
             <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 fuente">Contacto</h3>
             <p>Contactanos y cuentanos tus dudas o sugerencias.</p>
@@ -195,8 +211,10 @@
     </footer>
     <script src="jquery.js"></script>
     <script src="jquery.richtext.min.js"></script>
-     <script src="icons.js"></script>
+    <script src="icons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <script src="cuenta.js"></script>
+    <script src="alerta.js"></script>
     <script src="editorT.js"></script>
 </body>
 
